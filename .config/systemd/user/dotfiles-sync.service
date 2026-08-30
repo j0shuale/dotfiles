@@ -1,0 +1,11 @@
+[Unit]
+Description=Auto-sync dotfiles to remote Git repository
+After=network.target
+
+[Service]
+Type=oneshot
+ExecStart=/home/%u/.local/bin/sync-git.sh
+
+# Optional: If you use an SSH agent, systemd needs to know where the socket is.
+# Uncomment and adjust if your pushes fail due to SSH auth:
+# Environment="SSH_AUTH_SOCK=%t/keyring/ssh"

@@ -2,6 +2,8 @@
   defaultBranch = main
 [core]
   editor = vim
-
 [include]
   path = ~/.gitconfig-local
+[user]
+  email = josh@joshualester.com
+  name = Josh Lester

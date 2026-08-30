@@ -1,0 +1,15 @@
+[Unit]
+Description=Timer for dotfiles auto-sync
+
+[Timer]
+# Run every hour. (Change to 'daily' if you prefer less noise)
+OnCalendar=hourly
+
+# If the machine was asleep/off during a scheduled run, execute immediately on boot
+Persistent=true
+
+# Optional: Add a random delay to prevent multiple services firing exactly on the hour
+RandomizedDelaySec=5m
+
+[Install]
+WantedBy=timers.target
