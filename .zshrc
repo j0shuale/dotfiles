@@ -3,6 +3,7 @@
 alias config='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
 alias vim='nvim'
 alias k='kubectl'
+alias g='git'
 
 # vars
 export PATH="$PATH:/home/joshu/.dotnet/tools"

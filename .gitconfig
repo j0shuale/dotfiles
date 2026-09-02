@@ -7,3 +7,13 @@
 [user]
   email = josh@joshualester.com
   name = Josh Lester
+[alias]
+  s = status
+  l = log
+  a = add
+  cm = commit -m
+  b = branch
+  sw = switch
+  swc = switch -c
+  p = push
+  pl = pull
