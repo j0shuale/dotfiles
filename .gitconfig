@@ -17,3 +17,5 @@
   swc = switch -c
   p = push
   pl = pull
+[push]
+  autoSetupRemote = true
