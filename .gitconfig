@@ -18,3 +18,5 @@
   p = push
   pl = pull
   cmd = "!git commit -m \"$(date +'%Y-%m-%d %H:%M:%S')\""
+[pull]
+	rebase = false
